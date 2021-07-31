@@ -1,0 +1,105 @@
+body{
+	background-image: url(mas/pexels-olia-danilevich-4974914.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header{
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.nav{
+	background: green;
+
+}
+.nav ul li{
+	list-style: none;
+	display: inline-block;
+	position: relative;
+}
+.nav ul li a{	
+    display: block;
+	padding: 15px 22px;
+	font-size: 25px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+}
+.nav ul li a:hover{
+	color: red;
+	background: powderblue;
+}
+.banner-img{
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	margin-top: 10px;
+
+
+}
+.text-item{
+	text-align: center;
+	color: greenyellow;
+	padding: 100px 0;
+}
+.text-item p{
+	font-size: 20px;
+	padding: 0 150px;
+	text-transform: capitalize;
+	font-weight: bold;
+	line-height: 25px;
+	margin-bottom: 20px;
+
+}
+.text-item button{
+	font-weight:bold;
+	font-size: 35px;
+	background: black;
+	color:white;
+	text-transform: capitalize;
+	text-align: center;
+	padding: 20px;
+	margin: 0 10px;
+	border: 0;
+}
+.text-item button:hover{
+	color: red;
+	background: powderblue;
+}
+.contact-iteam{
+	font-size: 20px;
+	text-transform: capitalize;
+	background:grey;
+	color: blanchedalmond;
+	padding: 20px;
+}
+.footer{
+	background: grey;
+	color: greenyellow;
+	text-transform: capitalize;
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4px;
+}
+.nav ul li ul{
+	position: absolute;
+	background: green;
+	left: -9999px;
+}
+.nav ul li:hover ul{
+	left: 0px;
+}
